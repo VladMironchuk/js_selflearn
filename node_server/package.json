@@ -1,0 +1,22 @@
+{
+  "name": "node_first_server",
+  "version": "1.0.0",
+  "description": "first node server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "vladmironchuk",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
